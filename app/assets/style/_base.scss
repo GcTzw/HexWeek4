@@ -1,0 +1,35 @@
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+body{
+    font-family: 'Noto Sans TC','Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+a:hover{
+    color: lightblue;
+}
+
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1320px;
+    padding: 0 12px;
+}
+
+.bg-main{
+     background-color: #AA0601;
+}

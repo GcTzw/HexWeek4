@@ -1,0 +1,134 @@
+
+
+
+
+.footer{
+    color: #fff;
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+
+.footer-menu
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu-pages
+{
+    display: flex;
+    margin-bottom: 28px;
+}
+.footer-menu-pages li{
+    margin-right: 48px;
+}
+
+.footer-menu-social{
+    display: flex;
+}
+.footer-menu-social img {
+    width: 48px;
+    height: 48px;
+    margin-left: 32px;
+}
+
+.footer-contract{
+    font-size: 36px;
+    margin-top: 8px;
+}
+.footer-contract span{
+    font-size: 40px;
+    margin-right: 20px;
+}
+.footer-contract a{
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-info{
+    padding-bottom: 32px;
+    border-bottom: 1px solid #fff;
+}
+
+.footer-privacy{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+.footer-privacy ul{
+    display: flex;
+    font-size: 14px;
+    line-height: 21px;
+}
+.footer-privacy ul li {
+    margin-left: 48px;
+}
+
+
+
+@media (max-width: 992px){
+
+    .footer{
+        padding: 56px 36px 40px 36px;
+    }
+   
+    .footer-menu-social img {
+        width: 40px;
+        height: 40px;
+        margin-left: 16px;
+    }
+}
+
+@media (max-width: 767px){
+
+    .footer{
+        padding: 24px 14px;
+    }
+    .footer-info{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+    .footer-menu{
+        width: 50%;
+    }
+    .footer-menu{
+        justify-content: flex-end;
+    }
+    .footer-menu-pages{
+        display: none;
+    }
+    .footer-menu-social img {
+        width: 24px;
+        height: 24px;
+        margin-left: 8px;
+    }
+    
+    .footer-contract{
+        width: 50%;
+        font-size: 16px;
+    }
+    .footer-contract span{
+        font-size: 20px;
+        margin-right: 11px;
+    }
+    .footer-privacy{
+        padding-top: 16px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .footer-privacy ul{
+        line-height: 1.5;
+        font-size: 16px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer-privacy ul li {
+        margin: 0;
+        margin-top: 8px;
+    }
+}
+

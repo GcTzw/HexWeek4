@@ -1,26 +1,61 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><%- title %></title>
-  <link rel="stylesheet" href="./assets/style/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <title><%- title %></title>
 </head>
-
 <body>
-  <header class="header">
-    這是 header
-  </header>
+    <div class="bg-main">
+        <div class="header container">
+            <div class="header-logo"><a href="index.html"></a></div>
+            <ul class="header-menu">
+                <li><a href="">系列鏡框</a></li>
+                <li><a href="location.html">門市據點</a></li>
+                <li><a href="">部落格</a></li>
+                <li><a href="">常見問題</a></li>
+            </ul>
+        </div>
+    </div>
 
-  <%- contents %>
+    <%- contents %>
 
-  <footer class="footer">
-    footer
-  </footer>
-  <script src="./assets/js/vendors.js"></script>
-  <script src="./assets/js/all.js"></script>
+    <div class="bg-main">
+        <div class="footer container">
+            <div class="footer-info">
+                <div class="footer-menu">
+                    <ul class="footer-menu-pages">
+                        <li><a href="index.html">首頁</a></li>
+                        <li><a href="">系列鏡框</a></li>
+                        <li><a href="location.html">門市據點</a></li>
+                        <li><a href="">部落格</a></li>
+                        <li><a href="">常見問題</a></li>
+                    </ul>
+                    <ul class="footer-menu-social">
+                        <li><a href="#"><img src="img/ic-social-fb.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/ic_social_ig.png" alt=""></a></li>
+                        <li><a href="#"><img src="img/ic_social_line.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="footer-contract"><a href="#"><span class="material-symbols-rounded">call</span>0800-000-000</a></div>
+                <div class="footer-contract"><a href="#"><span class="material-symbols-rounded">mail</span>glasses@business.com</a></div>
+            </div>
+            <div class="footer-privacy">
+                <p>Copyright © 2020 Glasses.All rights reserved.</p>
+                <ul>
+                    <li><a href="#">隱私權政策</a></li>
+                    <li><a href="#">服務條款</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>

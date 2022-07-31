@@ -1,0 +1,231 @@
+h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.bg-pink{
+    background-color: #FBF2F2;
+}
+
+.bg-banner
+{
+    background-image: url(../images/home-header.png);
+    background-position: center;
+    background-size: cover;
+}
+.banner{
+    padding: 296px 0;
+    text-align: right;
+    color: #650300;
+}
+.banner h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+.banner p {
+    font-size: 36px;
+}
+.banner a{
+    display: inline;
+    padding: 6px 12px;
+    margin-top: 10px;
+    color: #fff;
+    border: 0;
+    font-size: 20px;
+}
+.banner a:hover{
+    color: lightblue;
+}
+
+.promise{
+    color: #650300;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.promise ul {
+    display: flex;
+    justify-content: space-between;
+}
+.promise ul li {
+    width: 24%;
+}
+.promise ul li img{
+    margin-top: 32px;
+    width: 84px;
+    height: 84px;
+}
+.promise ul li h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.promise ul li p{
+    font-size: 16px;
+    color: #000;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.classic{
+    color: #650300;
+    text-align: center;
+    padding: 80px 0;
+}
+.classic ul{
+    display: flex;
+    justify-content: space-between;
+}
+.classic ul li {
+    width: 32%;
+}
+.classic ul li img{
+    margin-top: 48px;
+}
+.classic ul li h3{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    margin-top: 8px;
+    color: #aa0601;
+    font-size: 48px;
+}
+
+.bg-design{
+    background-image: url(../images/index-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.design{
+    padding: 80px 0;
+    text-align: center;
+}
+.design h2{
+    color: #fff;
+}
+.design ul{
+    margin-top: 48px;
+    display: flex;
+}
+.design ul li{
+    width: 50%;
+}
+.design ul li h3{
+    padding: 8px 0;
+    font-size: 48px;
+    color: #AA0601;
+    background-color: #fff;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+}
+.design-img-1{
+    height: 240px;
+    background-image: url(../images/home-section4-1.png);
+    background-position:  center;
+    background-size: cover;
+}
+.design-img-2{
+    height: 240px;
+    background-image: url(../images/home-section4-2.png);
+    background-position:  center;
+    background-size: cover;
+}
+
+.customer
+{
+    padding: 80px 0;
+    text-align: center;
+}
+.customer h2{
+    color: #650300;
+}
+.customer ul {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.customer ul li{
+    width: 23%;
+}
+.opinion{
+    padding: 16px;
+    box-shadow: 0px 2px 6px #DEE2E6;
+    text-align: left;
+}
+.opinion h3
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.opinion p
+{
+    font-size: 16px;
+    margin-top: 8px;
+}
+.opinion .time{
+    margin-top: 48px;
+    font-size: 14px;
+    color: #707070;
+}
+
+.form{
+    max-width: 640px;
+    padding: 80px 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.form h2{
+    color: #650300;
+}
+.form p {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 48px;
+}
+.form a{
+    padding: 16px 176px;
+    display: block;
+    margin-top: 48px;
+}
+.form .reply{
+    width: 100%;
+    font-size: 16px;
+}
+.form .reply p{
+    margin-top: 16px;
+}
+.reply input{
+    margin-top: 8px;
+    width: 100%;
+    border: 1px solid #000;
+    font-size: 16px;
+    padding: 6px 12px;
+}
+.reply textarea{
+    margin-top: 8px;
+    width: 100%;
+    border: 1px solid #000;
+    font-size: 16px;
+    padding: 6px 12px;
+}
+
+.checkbox{
+    display: flex;
+    margin-top: 16px;
+}
+.checkbox input{
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    margin-right: 4px;
+    border: 1px solid #000;
+}
+.checkbox p{
+    margin-top: 0;
+    font-size: 16px;
+}
