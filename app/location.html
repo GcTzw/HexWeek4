@@ -1,34 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="css/header-footer-reset.css">
-    <link rel="stylesheet" href="css/location.css">
-    <title>第三週作業</title>
-</head>
-<body>
-    <div class="bg-main">
-        <div class="header container">
-            <div class="header-logo"><a href="index.html"></a></div>
-            <ul class="header-menu">
-                <li><a href="">系列鏡框</a></li>
-                <li><a href="location.html">門市據點</a></li>
-                <li><a href="">部落格</a></li>
-                <li><a href="">常見問題</a></li>
-            </ul>
-        </div>
-    </div>
+---
+title: 門市據點
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
 
-    <div class="content container">
-        <h1>門市據點</h1>
+
+    <div class="location-content container">
+        <h1 class="location-h1">門市據點</h1>
         <div class="location-select">
             <p>選擇地區</p>
             <select>
@@ -37,9 +16,9 @@
         </div>
         <div class="location-info">
             <div class="location-info-store">
-                <img src="img/store-1.png" alt="">
+                <img src="assets/images/store-1.png" alt="">
                 <h2>台北中山旗艦店</h2>
-                <div class="store-info">
+                <div class="location-store-info">
                     <ul>
                         <li>
                             <span class="material-symbols-outlined">call</span>
@@ -56,14 +35,14 @@
                     </ul>
                 </div>
                 <div class="bg-black">
-                    <a href="store.html" class="btn-store-info-detail">詳細資訊</a>
+                    <a href="store.html" class="btn-location-store-info-detail">詳細資訊</a>
                 </div>
             </div>
 
             <div class="location-info-store">
-                <img src="img/store-2.png" alt="">
+                <img src="assets/images/store-2.png" alt="">
                 <h2>台北綠園店</h2>
-                <div class="store-info">
+                <div class="location-store-info">
                     <ul>
                         <li>
                             <span class="material-symbols-outlined">call</span>
@@ -80,14 +59,14 @@
                     </ul>
                 </div>
                 <div class="bg-black">
-                    <a href="store.html" class="btn-store-info-detail">詳細資訊</a>
+                    <a href="store.html" class="btn-location-store-info-detail">詳細資訊</a>
                 </div>
             </div>
 
             <div class="location-info-store">
-                <img src="img/store-3.png" alt="">
+                <img src="assets/images/store-3.png" alt="">
                 <h2>台中清水旗艦店</h2>
-                <div class="store-info">
+                <div class="location-store-info">
                     <ul>
                         <li>
                             <span class="material-symbols-outlined">call</span>
@@ -104,14 +83,14 @@
                     </ul>
                 </div>
                 <div class="bg-black">
-                    <a href="store.html" class="btn-store-info-detail">詳細資訊</a>
+                    <a href="store.html" class="btn-location-store-info-detail">詳細資訊</a>
                 </div>
             </div>
 
             <div class="location-info-store">
-                <img src="img/store-4.png" alt="">
+                <img src="assets/images/store-4.png" alt="">
                 <h2>高雄中正形象店</h2>
-                <div class="store-info">
+                <div class="location-store-info">
                     <ul>
                         <li>
                             <span class="material-symbols-outlined">call</span>
@@ -128,14 +107,14 @@
                     </ul>
                 </div>
                 <div class="bg-black">
-                    <a href="store.html" class="btn-store-info-detail">詳細資訊</a>
+                    <a href="store.html" class="btn-location-store-info-detail">詳細資訊</a>
                 </div>
             </div>
 
             <div class="location-info-store">
-                <img src="img/store-5.png" alt="">
+                <img src="assets/images/store-5.png" alt="">
                 <h2>高雄夢時代店</h2>
-                <div class="store-info">
+                <div class="location-store-info">
                     <ul>
                         <li>
                             <span class="material-symbols-outlined">call</span>
@@ -152,40 +131,10 @@
                     </ul>
                 </div>
                 <div class="bg-black">
-                    <a href="store.html" class="btn-store-info-detail">詳細資訊</a>
+                    <a href="store.html" class="btn-location-store-info-detail">詳細資訊</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="bg-main">
-        <div class="footer container">
-            <div class="footer-info">
-                <div class="footer-menu">
-                    <ul class="footer-menu-pages">
-                        <li><a href="index.html">首頁</a></li>
-                        <li><a href="">系列鏡框</a></li>
-                        <li><a href="location.html">門市據點</a></li>
-                        <li><a href="">部落格</a></li>
-                        <li><a href="">常見問題</a></li>
-                    </ul>
-                    <ul class="footer-menu-social">
-                        <li><a href="#"><img src="img/ic-social-fb.png" alt=""></a></li>
-                        <li><a href="#"><img src="img/ic_social_ig.png" alt=""></a></li>
-                        <li><a href="#"><img src="img/ic_social_line.png" alt=""></a></li>
-                    </ul>
-                </div>
-                <div class="footer-contract"><a href="#"><span class="material-symbols-rounded">call</span>0800-000-000</a></div>
-                <div class="footer-contract"><a href="#"><span class="material-symbols-rounded">mail</span>glasses@business.com</a></div>
-            </div>
-            <div class="footer-privacy">
-                <p>Copyright © 2020 Glasses.All rights reserved.</p>
-                <ul>
-                    <li><a href="#">隱私權政策</a></li>
-                    <li><a href="#">服務條款</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+    
