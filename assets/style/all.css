@@ -90,7 +90,7 @@ a:hover {
 .header-logo a {
   width: 80px;
   height: 50px;
-  background-image: url(../img/logo-white.png);
+  background-image: url(../images/logo-white.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -153,13 +153,16 @@ a:hover {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  margin-bottom: 28px; }
 
 .footer-menu-pages {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 28px; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .footer-menu-pages li {
   margin-right: 48px; }
@@ -216,6 +219,8 @@ a:hover {
 @media (max-width: 992px) {
   .footer {
     padding: 56px 36px 40px 36px; }
+  .footer-menu {
+    margin-bottom: 24px; }
   .footer-menu-social img {
     width: 40px;
     height: 40px;
@@ -547,10 +552,16 @@ a:hover {
   margin-top: 46px; }
 
 .location-info-store {
-  width: 31.333%;
+  width: 31%;
   margin-bottom: 48px;
-  margin-right: 1%;
-  margin-left: 1%; }
+  margin-right: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
 
 .location-info-store h2 {
   padding: 8px 24px;
@@ -558,7 +569,9 @@ a:hover {
   font-size: 24px; }
 
 .location-store-info {
-  border: 1px solid #00000020;
+  border-right: 1px solid #00000020;
+  border-left: 1px solid #00000020;
+  margin-bottom: auto;
   padding: 8px 24px 16px 24px; }
 
 .location-store-info ul li {
@@ -575,7 +588,8 @@ a:hover {
   text-align: center;
   font-size: 19px;
   line-height: 27px;
-  padding: 16px 0; }
+  padding: 16px 0;
+  background-color: #000; }
 
 @media (max-width: 992px) {
   .location-content {
@@ -593,6 +607,8 @@ a:hover {
     margin-bottom: 24px; } }
 
 @media (max-width: 767px) {
+  .location-h1 {
+    font-size: 24px; }
   .location-content {
     padding: 40px 14px 40px 14px; }
   .location-info-store {
