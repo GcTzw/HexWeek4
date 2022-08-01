@@ -12,12 +12,13 @@
 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 28px;
 }
 
 .footer-menu-pages
 {
     display: flex;
-    margin-bottom: 28px;
+    align-items: center;
 }
 .footer-menu-pages li{
     margin-right: 48px;
@@ -70,6 +71,10 @@
 
     .footer{
         padding: 56px 36px 40px 36px;
+    }
+
+    .footer-menu{
+        margin-bottom: 24px;
     }
    
     .footer-menu-social img {
